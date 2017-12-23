@@ -56,7 +56,7 @@ def addTwoNumbers(l1, l2):
 
 ```
 
-# 3. Longest Substring Without Repeating Characters
+# 3.Longest Substring Without Repeating Characters
 
 hash,two pointers
 
@@ -78,7 +78,7 @@ class Solution:
         return maxLength
 ```
 
-# 5. Longest Palindromic Substring
+# 5.Longest Palindromic Substring
 
 ```
 class Solution:
@@ -100,7 +100,7 @@ class Solution:
         return s[start:start+maxLen]
 ```
 
-# 6. ZigZag Conversion
+# 6.ZigZag Conversion
 
 ```
 class Solution(object):
@@ -115,11 +115,11 @@ class Solution(object):
         return ''.join(rows)
 ```
 
-# 7. Reverse Integer
+# 7.Reverse Integer
 
 python 没有数据溢出的问题。
 
-# 8. String to Integer (atoi)
+# 8.String to Integer (atoi)
 
 
 
