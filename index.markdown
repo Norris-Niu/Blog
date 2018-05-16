@@ -2,4 +2,4 @@
 layout: default
 ---
 
-it's me.
+Such a ridiculous world...
