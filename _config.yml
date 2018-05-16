@@ -18,6 +18,9 @@ navigations:
   - title: About
     class: fa fa-user
     href: /about.html
+  - title: Notes
+    class: fa fa-book
+    href: https://norris-niu.gitbooks.io/notes/content/ 
   - title: Tools
     class: fa fa-wrench
     href: /tool.html
