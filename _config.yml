@@ -20,7 +20,7 @@ navigations:
     href: /about.html
   - title: Notes
     class: fa fa-book
-    href: https://norris-niu.gitbooks.io/notes/content/ 
+    href: /_book/index.html 
   - title: Tools
     class: fa fa-wrench
     href: /tool.html
