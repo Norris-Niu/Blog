@@ -2,6 +2,6 @@
 layout: page
 ---
 
-<font size=5>**Such a ridiculous world...**</font>
+**Such a ridiculous world...**
 
 ![astronaut_child](/images/cover/astronaut_child.png)
