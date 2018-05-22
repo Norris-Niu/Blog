@@ -20,7 +20,7 @@ navigations:
     href: /about.html
   - title: Notes
     class: fa fa-book
-    href: /_book/index.html 
+    href: /book/index.html 
   - title: Tools
     class: fa fa-wrench
     href: /tool.html
