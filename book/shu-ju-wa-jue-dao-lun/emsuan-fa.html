@@ -1,0 +1,420 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>EM算法 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../macpei-zhi-si-ren-zhi-nan.html" />
+    
+    
+    <link rel="prev" href="fen-lei-2-0.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../esl-reading-notes.html">
+            
+                <a href="../esl-reading-notes.html">
+            
+                    
+                    ESL Reading Notes
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../esl-reading-notes/chapter-2.html">
+            
+                <a href="../esl-reading-notes/chapter-2.html">
+            
+                    
+                    Chapter 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../esl-reading-notes/chapter-3.html">
+            
+                <a href="../esl-reading-notes/chapter-3.html">
+            
+                    
+                    Chapter 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../shu-ju-wa-jue-dao-lun.html">
+            
+                <a href="../shu-ju-wa-jue-dao-lun.html">
+            
+                    
+                    数据挖掘导论
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="shu-ju.html">
+            
+                <a href="shu-ju.html">
+            
+                    
+                    数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="guan-lian-fen-xi.html">
+            
+                <a href="guan-lian-fen-xi.html">
+            
+                    
+                    关联分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="ju-lei-fen-xi.html">
+            
+                <a href="ju-lei-fen-xi.html">
+            
+                    
+                    聚类分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="fen-lei-1-0.html">
+            
+                <a href="fen-lei-1-0.html">
+            
+                    
+                    分类1.0
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="fen-lei-2-0.html">
+            
+                <a href="fen-lei-2-0.html">
+            
+                    
+                    分类2.0
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.6" data-path="emsuan-fa.html">
+            
+                <a href="emsuan-fa.html">
+            
+                    
+                    EM算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../macpei-zhi-si-ren-zhi-nan.html">
+            
+                <a href="../macpei-zhi-si-ren-zhi-nan.html">
+            
+                    
+                    MAC配置私人指南
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >EM算法</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x6570;&#x636E;&#x6316;&#x6398;&#x5341;&#x5927;&#x7B97;&#x6CD5;&#x4E4B;&#x4E00;&#x7684;EM&#xFF08;exception maximization&#xFF09;&#x7B97;&#x6CD5;&#x7684;&#x5927;&#x540D;&#x53EF;&#x662F;&#x5982;&#x96F7;&#x8D2F;&#x8033;&#xFF0C;EM&#x7B97;&#x6CD5;&#x7B80;&#x5355;&#x6765;&#x8BF4;&#xFF0C;&#x5C31;&#x662F;&#x7531;&#x4E24;&#x90E8;&#x5206;&#x7EC4;&#x6210;&#xFF1A;E&#x548C;M&#x3002;E&#x662F;exception&#xFF0C;&#x5373;&#x6C42;&#x671F;&#x671B;&#xFF1B;M&#x662F;maximization&#xFF0C;&#x6C42;&#x6781;&#x5927;&#x503C;&#x3002;</p>
+<p>&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x4F7F;&#x7528;EM&#x7B97;&#x6CD5;&#x5462;&#xFF1F;</p>
+<p>&#x6211;&#x4EEC;&#x5E38;&#x89C1;&#x7684;&#x6982;&#x7387;&#x6A21;&#x578B;&#x4E00;&#x822C;&#x90FD;&#x53EA;&#x6709;&#x89C2;&#x6D4B;&#x53D8;&#x91CF;&#xFF0C;&#x5373;&#x90FD;&#x662F;&#x7ED9;&#x5B9A;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x7528;<a href="http://blog.csdn.net/yangliuy/article/details/8296481" target="_blank">&#x6781;&#x5927;&#x4F3C;&#x7136;&#x4F30;&#x8BA1;&#x3001;&#x8D1D;&#x53F6;&#x65AF;&#x4F30;&#x8BA1;</a>&#x7B49;&#x65B9;&#x6CD5;&#x3002;&#x4F46;&#x662F;&#x6709;&#x4E9B;&#x65F6;&#x5019;&#xFF0C;&#x6982;&#x7387;&#x6A21;&#x578B;&#x662F;&#x542B;&#x6709;&#x9690;&#x53D8;&#x91CF;&#x6216;&#x6F5C;&#x5728;&#x53D8;&#x91CF;&#x7684;&#xFF0C;&#x8FD9;&#x65F6;&#x5019;&#x5C31;&#x662F;EM&#x7B97;&#x6CD5;&#x53D1;&#x6325;&#x7684;&#x65F6;&#x523B;&#x4E86;&#x3002;</p>
+<p>&#x5148;&#x6765;&#x8BF4;&#x8BF4;&#x9690;&#x53D8;&#x91CF;&#xFF0C;&#x9690;&#x53D8;&#x91CF;&#x5C31;&#x662F;&#x65E0;&#x6CD5;&#x76F4;&#x63A5;&#x4ECE;&#x7ED9;&#x5B9A;&#x7684;&#x6570;&#x636E;&#x4E2D;&#x89C2;&#x5BDF;&#x5230;&#x7684;&#x53D8;&#x91CF;&#xFF0C;&#x6BD4;&#x5982;&#x300C;&#x7EDF;&#x8BA1;&#x5B66;&#x4E60;&#x65B9;&#x6CD5;&#x300D;&#x4E00;&#x4E66;&#x4E2D;&#x6240;&#x8BF4;&#x7684;&#x4F8B;&#x5B50;&#xFF1A;&#x4E09;&#x4E2A;&#x7B5B;&#x5B50;A,B,C&#x8FDB;&#x884C;&#x5982;&#x4E0B;&#x5B9E;&#x9A8C;&#xFF0C;&#x5148;&#x6295;&#x63B7;A&#x786C;&#x5E01;&#xFF0C;&#x6839;&#x636E;&#x5176;&#x7ED3;&#x679C;&#x9009;&#x51FA;B&#x6216;C&#x786C;&#x5E01;&#xFF0C;&#x6BD4;&#x5982;&#x6B63;&#x9762;&#x9009;B&#xFF0C;&#x53CD;&#x9762;&#x9009;C&#xFF0C;&#x7136;&#x540E;&#x63B7;&#x51FA;&#x9009;&#x62E9;&#x5230;&#x7684;&#x786C;&#x5E01;&#xFF0C;&#x5982;&#x679C;&#x51FA;&#x51FA;&#x73B0;&#x6B63;&#x9762;&#x8BB0;&#x4F5C;1&#xFF0C;&#x51FA;&#x73B0;&#x53CD;&#x9762;&#x8BB0;&#x4F5C;0&#xFF0C;&#x72EC;&#x7ACB;&#x91CD;&#x590D;n&#x6B21;&#xFF0C;&#x5F97;&#x5230;&#x89C2;&#x6D4B;&#x7ED3;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p>
+<blockquote>
+<p>1,1,0,1,0,0,1,0,1,1</p>
+</blockquote>
+<p>&#x90A3;&#x4E48;&#x5982;&#x4F55;&#x4F30;&#x8BA1;&#x4E09;&#x4E2A;&#x786C;&#x5E01;&#x6B63;&#x9762;&#x51FA;&#x73B0;&#x7684;&#x6982;&#x7387;&#x5462;&#xFF1F;</p>
+<p>&#x4ECE;&#x7ED3;&#x679C;&#x6765;&#x770B;&#xFF0C;&#x53EA;&#x80FD;&#x770B;&#x5230;B&#x548C;C&#x7684;&#x7ED3;&#x679C;&#xFF0C;&#x800C;A&#x5F97;&#x6982;&#x7387;&#x662F;&#x65E0;&#x6CD5;&#x76F4;&#x63A5;&#x5F97;&#x5230;&#x7684;&#xFF0C;&#x6B64;&#x65F6;A&#x6B63;&#x9762;&#x7684;&#x6982;&#x7387;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x8FD9;&#x4E2A;&#x6A21;&#x578B;&#x4E2D;&#x4E00;&#x4E2A;&#x9690;&#x53D8;&#x91CF;&#x3002;</p>
+<p>&#x4E00;&#x822C;&#x7684;&#xFF0C;&#x7528;$$Y=(Y_1,Y_2,...,Y_n)^T$$&#x8868;&#x793A;&#x89C2;&#x6D4B;&#x5230;&#x7684;&#x968F;&#x673A;&#x53D8;&#x91CF;&#x7684;&#x6570;&#x636E;&#xFF0C;$$Z=(Z_1,Z_2,...,Z_n)^T$$&#x8868;&#x793A;&#x9690;&#x968F;&#x673A;&#x53D8;&#x91CF;&#x7684;&#x6570;&#x636E;&#x3002;$$Y&#x548C;Z$$&#x5728;&#x4E00;&#x8D77;&#x88AB;&#x79F0;&#x4E3A;&#x5B8C;&#x5168;&#x6570;&#x636E;&#xFF0C;&#x89C2;&#x6D4B;&#x6570;&#x636E;$$Y$$&#x53C8;&#x79F0;&#x4E3A;&#x4E0D;&#x5B8C;&#x5168;&#x6570;&#x636E;&#x3002;&#x53C2;&#x6570;&#x7A7A;&#x95F4;&#x4E3A;$$\theta$$&#xFF0C;&#x5047;&#x8BBE;&#x89C2;&#x6D4B;&#x6570;&#x636E;Y&#x7684;&#x6982;&#x7387;&#x5206;&#x5E03;&#x662F;$$P(Y|\theta)$$,&#x90A3;&#x4E48;&#x5176;&#x6982;&#x7387;&#x5206;&#x5E03;&#x662F;$$P(Y|\theta)$$&#xFF0C;&#x5047;&#x8BBE;$$Y&#x548C;Z$$&#x7684;&#x8054;&#x5408;&#x6982;&#x7387;&#x5206;&#x5E03;&#x662F;$$P(Y,Z|\theta)$$&#xFF0C;&#x90A3;&#x4E48;&#x5B8C;&#x5168;&#x6570;&#x636E;&#x7684;&#x5BF9;&#x6570;&#x4F3C;&#x7136;&#x51FD;&#x6570;&#x5C31;&#x662F;$$logP(Y,Z|\theta)$$&#x3002;</p>
+<p>EM&#x7B97;&#x6CD5;&#x7684;&#x6B65;&#x9AA4;&#x5C31;&#x662F;&#xFF1A;</p>
+<p>&#x8F93;&#x5165;&#xFF1A;&#x89C2;&#x6D4B;&#x6570;&#x636E;$$Y$$&#xFF0C;&#x9690;&#x53D8;&#x91CF;$$Z$$&#xFF0C;&#x8054;&#x5408;&#x5206;&#x5E03;$$P(X,Y|Z)$$&#xFF0C;&#x6761;&#x4EF6;&#x5206;&#x5E03;$$P(Z|Y,\theta)$$</p>
+<p>&#x8F93;&#x51FA;&#xFF1A;&#x6A21;&#x578B;&#x53C2;&#x6570;$$\theta$$</p>
+<ol>
+<li>&#x9009;&#x62E9;&#x53C2;&#x6570;&#x7684;&#x521D;&#x503C;$$\theta^{(0)}$$,&#x5F00;&#x59CB;&#x8FED;&#x4EE3;</li>
+<li><p>E&#x6B65;&#xFF1A;&#x8BB0;$$\theta^{(i)}$$&#x4E3A;&#x7B2C;$$i$$&#x6B21;&#x8FED;&#x4EE3;&#x53C2;&#x6570;$$\theta$$&#x7684;&#x4F30;&#x8BA1;&#x503C;&#xFF0C;&#x5728;&#x7B2C;$$i+1$$&#x6B21;&#x8FED;&#x4EE3;&#x7684;E&#x6B65;&#xFF0C;&#x8BA1;&#x7B97;</p>
+<p>$$\begin{equation}
+\begin{aligned}
+Q(\theta,\theta^{(i)})     &amp;=E_z[logP(Y,Z|\theta)|Y,\theta^{(i)}]\
+&amp;=\Sigma_zlogP(Y,Z|\theta)P(Z|Y,\theta^{(i)})
+\end{aligned}
+\end{equation}$$</p>
+</li>
+<li><p>M&#x6B65;&#xFF1A;&#x6C42;&#x4F7F;&#x5F97;$$Q(\theta,\theta^{(i)})$$&#x6781;&#x5927;&#x5316;&#x7684;$$\theta$$&#xFF0C;&#x786E;&#x5B9A;&#x7B2C;$$i+1$$&#x6B21;&#x8FED;&#x4EE3;&#x7684;&#x53C2;&#x6570;&#x503C;$$\theta^{(i+1)}$$</p>
+<p>$$\theta^{(i+1)}=argmax_{\theta}Q(\theta,\theta^{(i)})$$</p>
+</li>
+<li><p>&#x91CD;&#x590D;&#x7B2C;2&#x6B65;&#x548C;&#x7B2C;3&#x6B65;&#xFF0C;&#x76F4;&#x5230;&#x6536;&#x655B;&#x3002;</p>
+</li>
+</ol>
+<p>&#x5176;&#x4E2D;&#x7B2C;&#x4E8C;&#x6B65;&#x7684;Q&#x51FD;&#x6570;&#xFF08;    Q function&#xFF09;&#x662F;EM&#x7B97;&#x6CD5;&#x7684;&#x6838;&#x5FC3;&#x3002;</p>
+<p>&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x5927;&#x591A;&#x6570;&#x60C5;&#x51B5;&#x4E0B;EM&#x7B97;&#x6CD5;&#x662F;&#x6536;&#x655B;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x80FD;&#x4FDD;&#x8BC1;&#x6536;&#x655B;&#x5230;&#x5168;&#x5C40;&#x6700;&#x4F18;&#xFF0C;&#x53EF;&#x4EE5;&#x591A;&#x9009;&#x51E0;&#x4E2A;&#x521D;&#x503C;&#xFF0C;&#x901A;&#x8FC7;&#x6BD4;&#x8F83;&#x6700;&#x540E;&#x5F97;&#x5230;&#x7684;&#x53C2;&#x6570;&#xFF0C;&#x9009;&#x5B9A;&#x4E00;&#x4E2A;&#x6700;&#x7B26;&#x5408;&#x5B9E;&#x9645;&#x7684;&#x7ED3;&#x679C;&#x3002;&#x9AD8;&#x65AF;&#x6DF7;&#x5408;&#x6A21;&#x578B;&#x4EE5;&#x53CA;&#x9690;&#x9A6C;&#x5C14;&#x79D1;&#x592B;&#x6A21;&#x578B;&#x90FD;&#x662F;EM&#x7B97;&#x6CD5;&#x7684;&#x91CD;&#x8981;&#x5E94;&#x7528;&#xFF0C;&#x4E3B;&#x8981;&#x5E94;&#x7528;&#x4E8E;&#x542B;&#x6709;&#x9690;&#x53D8;&#x91CF;&#x7684;&#x6982;&#x7387;&#x6A21;&#x578B;&#x7684;&#x5B66;&#x4E60;&#x3002;</p>
+<p>EM&#x7B97;&#x6CD5;&#x5176;&#x5B9E;&#x8FD8;&#x53EF;&#x4EE5;&#x89E3;&#x91CA;&#x4E3A;F&#x51FD;&#x6570;&#x7684;&#x6781;&#x5927;-&#x6781;&#x5927;&#x7B97;&#x6CD5;&#x3002;EM&#x7B97;&#x6CD5;&#x7684;&#x4E00;&#x6B21;&#x8FED;&#x4EE3;&#x53EF;&#x4EE5;&#x7531;F&#x51FD;&#x6570;&#x7684;&#x6781;&#x5927;-&#x6781;&#x5927;&#x7B97;&#x6CD5;&#x5B9E;&#x73B0;&#x3002;&#x800C;EM&#x7B97;&#x6CD5;&#x4E5F;&#x6709;&#x5F88;&#x591A;&#x81EA;&#x5DF1;&#x7684;&#x63A8;&#x5E7F;&#xFF0C;&#x4F8B;&#x5982;GEM&#xFF08;generalized exception maximization&#xFF09;&#x3002;GEM&#x4E5F;&#x5305;&#x542B;&#x591A;&#x79CD;&#x7B97;&#x6CD5;&#xFF0C;&#x4F8B;&#x5982;&#x4F7F;&#x7528;F&#x51FD;&#x6570;&#x7684;&#x7B97;&#x6CD5;&#xFF0C;&#x6709;&#x7684;&#x65F6;&#x5019;Q&#x51FD;&#x6570;&#x7684;&#x6781;&#x5927;&#x5316;&#x662F;&#x4E0D;&#x90A3;&#x4E48;&#x5BB9;&#x6613;&#x6C42;&#x51FA;&#x6765;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x653E;&#x677E;EM&#x7B97;&#x6CD5;&#x7684;&#x7B2C;3&#x6B65;&#xFF0C;&#x5C06;&#x6781;&#x5927;&#x5316;&#x653E;&#x677E;&#x4E3A;&#xFF0C;&#x53EA;&#x8981;&#x6BD4;&#x539F;&#x6765;&#x7684;&#x4F3C;&#x7136;&#x51FD;&#x6570;&#x5927;&#x5373;&#x53EF;&#xFF0C;&#x6216;&#x8005;&#x6362;&#x4E00;&#x79CD;&#x601D;&#x8DEF;&#xFF0C;&#x6211;&#x4EEC;&#x4E0D;&#x76F4;&#x63A5;&#x6C42;$$\theta$$&#x4F7F;&#x5F97;Q&#x51FD;&#x6570;&#x6700;&#x5927;&#xFF0C;&#x800C;&#x662F;&#x628A;$$\theta$$&#x4E2D;&#x6BCF;&#x4E00;&#x4E2A;&#x5206;&#x91CF;&#xFF0C;&#x4F9D;&#x6B21;&#x6C42;&#x4F7F;&#x5F97;Q&#x51FD;&#x6570;&#x6700;&#x5927;&#x7684;&#x7ED3;&#x679C;&#xFF0C;&#x7136;&#x540E;&#x7EC4;&#x5408;&#x8D77;&#x6765;&#xFF08;&#x5177;&#x4F53;&#x6765;&#x8BF4;&#x5C31;&#x662F;&#xFF0C;&#x9996;&#x5148;&#x9664;&#x4E86;&#x7B2C;&#x4E00;&#x4E2A;&#x7684;&#x5206;&#x91CF;&#xFF0C;&#x4FDD;&#x6301;&#x5176;&#x4ED6;&#x503C;&#x4E0D;&#x53D8;&#xFF0C;&#x6C42;&#x89E3;&#x4F7F;&#x5F97;Q&#x51FD;&#x6570;&#x6781;&#x5927;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5206;&#x91CF;&#xFF0C;&#x7136;&#x540E;&#x66FF;&#x6362;&#x5230;&#x539F;&#x59CB;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5206;&#x91CF;&#xFF0C;&#x7136;&#x540E;&#x9664;&#x4E86;&#x7B2C;&#x4E8C;&#x4E2A;&#x5206;&#x91CF;&#xFF0C;&#x5176;&#x4F59;&#x5206;&#x91CF;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF0C;&#x6CE8;&#x610F;&#x6B64;&#x65F6;&#x7B2C;&#x4E00;&#x4E2A;&#x5206;&#x91CF;&#x5DF2;&#x7ECF;&#x6539;&#x53D8;&#x4E86;&#xFF0C;&#x7136;&#x540E;&#x6C42;&#x89E3;&#x4F7F;&#x5F97;Q&#x51FD;&#x6570;&#x6781;&#x5927;&#x7684;&#x7B2C;&#x4E8C;&#x4E2A;&#x5206;&#x91CF;&#xFF0C;&#x66FF;&#x6362;&#x539F;&#x59CB;&#x7684;&#x7B2C;&#x4E8C;&#x4E2A;&#x5206;&#x91CF;&#xFF0C;&#x4F9D;&#x6B21;&#x7C7B;&#x63A8;&#xFF0C;&#x77E5;&#x9053;&#x6240;&#x6709;&#x5206;&#x91CF;&#x90FD;&#x5DF2;&#x7ECF;&#x88AB;&#x66FF;&#x6362;&#x4E86;&#x4E00;&#x904D;&#xFF09;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="fen-lei-2-0.html" class="navigation navigation-prev " aria-label="Previous page: 分类2.0">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../macpei-zhi-si-ren-zhi-nan.html" class="navigation navigation-next " aria-label="Next page: MAC配置私人指南">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"EM算法","level":"1.3.6","depth":2,"next":{"title":"MAC配置私人指南","level":"1.4","depth":1,"path":"macpei-zhi-si-ren-zhi-nan.md","ref":"macpei-zhi-si-ren-zhi-nan.md","articles":[]},"previous":{"title":"分类2.0","level":"1.3.5","depth":2,"path":"shu-ju-wa-jue-dao-lun/fen-lei-2-0.md","ref":"shu-ju-wa-jue-dao-lun/fen-lei-2-0.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"shu-ju-wa-jue-dao-lun/emsuan-fa.md","mtime":"2018-05-23T09:01:22.097Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-23T09:01:54.690Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
