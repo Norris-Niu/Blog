@@ -24,9 +24,9 @@ title: tools
 
 [Imgur](http://imgur.com/)  
 
-[Photobucket](photobucket.com)
+[Photobucket](http://www.photobucket.com)
 
-[Duolingo](duolingo.com) Language Learning  
+[Duolingo](http://www.duolingo.com) Language Learning  
 
 [Archive.org](http://archive.org/web/web.php) 时光机
 
